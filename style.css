@@ -1,0 +1,63 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    ---color1: hsl(332, 51%, 32%);
+    ---color2: hsl(330, 100%, 98%);
+    ---color3: hsl(14, 45%, 36%);
+    ---color4: hsl(30, 54%, 90%);
+    ---color5: hsl(30, 18%, 87%);
+    ---color6: hsl(30, 10%, 34%);
+    ---color7: hsl(24, 5%, 18%);
+    ---color8: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container{
+    background-color: var(---color4);
+}
+h1, h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+h1{
+    color: var(---color7);
+}
+h2{
+    color: var(---color3);
+}
+.preparation{
+    background-color: var(---color2);
+}
+.preparation p{
+    color: var(---color1);
+}
+p, li{
+    color: var(---color6);
+    font-size: 12px !important;
+}
+.calories{
+    color: var(---color3);
+}
+ul li::marker{
+    color: var(---color3);
+    font-size: 12px;
+}
+ol li::marker{
+    color: var(---color3);
+    font-size: 12px;
+}
+.nutrition{
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px 15px;
+}
+.serving p{
+    margin: 0 150px;
+    color: var(---color3) !important;
+}
